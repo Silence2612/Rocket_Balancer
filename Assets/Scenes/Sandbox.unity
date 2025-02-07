@@ -683,11 +683,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5294811925296899873, guid: 69da59732a7200548afde6dd056da8dc, type: 3}
       propertyPath: m_UseGravity
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5294811925296899873, guid: 69da59732a7200548afde6dd056da8dc, type: 3}
       propertyPath: m_Constraints
-      value: 16
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 7250921428710336616, guid: 69da59732a7200548afde6dd056da8dc, type: 3}
       propertyPath: RotateSpeed
