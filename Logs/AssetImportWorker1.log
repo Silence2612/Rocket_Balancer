@@ -1,0 +1,286 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.33f1 (433b0a79340b) revision 4406026'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\6000.0.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/vansh/Documents/Unity/Rocket_Balancer
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62917
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/vansh/Documents/Unity/Rocket_Balancer
+C:/Users/vansh/Documents/Unity/Rocket_Balancer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24332]  Target information:
+
+Player connection [24332]  * "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 3187134457 [EditorId] 3187134457 [Version] 1048832 [Id] WindowsEditor(7,Legion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24332] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24332] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.33f1 (433b0a79340b)
+[Subsystems] Discovering subsystems at path C:/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vansh/Documents/Unity/Rocket_Balancer/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Vendor:   NVIDIA
+    VRAM:     8020 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/6000.0.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004078 seconds.
+- Loaded All Assemblies, in  0.498 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.391 seconds
+Domain Reload Profiling: 885ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (171ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (332ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.937 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 1796ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (600ms)
+		LoadAssemblies (442ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (286ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (177ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (687ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5936 unused Assets / (6.9 MB). Loaded Objects now: 6572.
+Memory consumption went from 155.2 MB to 148.3 MB.
+Total: 15.413100 ms (FindLiveObjects: 1.547000 ms CreateObjectMapping: 1.952300 ms MarkObjects: 6.735100 ms  DeleteObjects: 5.175600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 622629.680355 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02e5b530d5b44d961131ffba578cd945') in 0.0282936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 660.588409 seconds.
+  path: Assets/GameDevTV Assets/Models/Building_17.fbx
+  artifactKey: Guid(aa840126f37030e459305ecd09c6f48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Building_17.fbx using Guid(aa840126f37030e459305ecd09c6f48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5d8df5244cce2284afdee3f82389366') in 12.0202253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_05_Antenna_Yellow.fbx
+  artifactKey: Guid(893dd7bb544a72441b43e6873d081b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Dropship_05_Antenna_Yellow.fbx using Guid(893dd7bb544a72441b43e6873d081b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7694f27cfb3652e374916f3e7151733') in 0.0274534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/GameDevTV Assets/Models/Mothership_02_Roof_Hatch_Blue.fbx
+  artifactKey: Guid(ad39e1743733cb048b438c089ba4ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Mothership_02_Roof_Hatch_Blue.fbx using Guid(ad39e1743733cb048b438c089ba4ec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed316926ef4c514dbea8e6fc8d431478') in 0.0388271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GameDevTV Assets/Models/Fighter_03_Engine_Yellow.fbx
+  artifactKey: Guid(dd065d2ecf244ac40a2ebcda998652c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Fighter_03_Engine_Yellow.fbx using Guid(dd065d2ecf244ac40a2ebcda998652c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3204c0aa3970cb041c1b4755446d3be6') in 0.0289547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_01_Left_Compartment_Red.fbx
+  artifactKey: Guid(6f86c34ae85b73944b67468ca1680b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Dropship_01_Left_Compartment_Red.fbx using Guid(6f86c34ae85b73944b67468ca1680b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e60efccd1b3b242ab61685c62f8a798') in 0.0283892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_02_Body_Yellow.fbx
+  artifactKey: Guid(eec6e35c3e07f9b47b15e9841f7b8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Dropship_02_Body_Yellow.fbx using Guid(eec6e35c3e07f9b47b15e9841f7b8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c3dc7a953a504d2e47de27997a08b14') in 0.0310483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_05_Fuse_Red.fbx
+  artifactKey: Guid(151d34a463cbc19459a944508026bae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Dropship_05_Fuse_Red.fbx using Guid(151d34a463cbc19459a944508026bae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '895e09e3bd46243e57d28207cd90923d') in 0.028601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_04_Artillery_Mount.fbx
+  artifactKey: Guid(5c1654fbf542ad64284c1a15b17e3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Dropship_04_Artillery_Mount.fbx using Guid(5c1654fbf542ad64284c1a15b17e3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a5285c7a99da35f1477f49aaacb7499') in 0.0271815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_01_Piping_02_Red.fbx
+  artifactKey: Guid(7977cdb90f47c8b4d88efbc0df5169b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Dropship_01_Piping_02_Red.fbx using Guid(7977cdb90f47c8b4d88efbc0df5169b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '555c7b866747521ba66a26e34f3c7c69') in 0.0247876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GameDevTV Assets/Models/Rock_Cliffs_Env_01.fbx
+  artifactKey: Guid(0f54db866ebb482498933fde11d5f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Rock_Cliffs_Env_01.fbx using Guid(0f54db866ebb482498933fde11d5f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '368a9698fbb44c918385691e38f5dfd7') in 0.0233453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_02_Light_Mount.fbx
+  artifactKey: Guid(c8b15472361882840b1507d206e4dbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevTV Assets/Models/Dropship_02_Light_Mount.fbx using Guid(c8b15472361882840b1507d206e4dbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd31c64b0e822315315e7dc0782e65c69') in 0.0257237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
