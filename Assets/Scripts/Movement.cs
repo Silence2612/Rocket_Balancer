@@ -6,11 +6,13 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] InputAction thrust;
     [SerializeField] InputAction Rotation;
-    [SerializeField] AudioSource AudioSource;
     [SerializeField] float ThrustStrength = 10;
     [SerializeField] float RotateSpeed = 10;
+    [SerializeField] AudioClip MainEngine;
+
 
     Rigidbody rb;
+    AudioSource AudioSource;
 
     private void Start() 
     {
@@ -27,7 +29,7 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         Thrusting();
-         Process_Rotation();
+        Process_Rotation();
     }
 
     private void Thrusting()
@@ -35,15 +37,19 @@ public class Movement : MonoBehaviour
         if (thrust.IsPressed())
         {
             rb.AddRelativeForce(Vector3.up * ThrustStrength * Time.fixedDeltaTime);
-            if(!AudioSource.isPlaying)
+            if (!AudioSource.isPlaying)
             {
-                AudioSource.Play();        
+                Debug.Log("Attempting to play audio...");
+                AudioSource.PlayOneShot(MainEngine);   
             }
         }
-        else{
+        else
+        {
             AudioSource.Stop();
+            Debug.Log("Stopping audio...");
         }
     }
+
 
     private void  Process_Rotation()
      {
