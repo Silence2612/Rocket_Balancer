@@ -10,6 +10,7 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] AudioClip crash;
     
     AudioSource AudioSource;
+    bool IsControllable = true;
 
     private void Start() 
     {
@@ -19,27 +20,32 @@ public class CollisionHandler : MonoBehaviour
 
     private void OnCollisionEnter(Collision other) 
     {
-        switch (other.gameObject.tag)
+        if(IsControllable == true)
         {
-             case "Fuel":
-             Debug.Log("Safe");
-             break;
-             case "Friendly":
-             Debug.Log("Start");
-             break;
-             case "Finish":
-             Debug.Log("Finished");
-             NextLevelSequence();
-             break;
-             default:
-             Debug.Log("Explode");
-             StartCrashSequence();
-             break;
+            switch (other.gameObject.tag)
+            {
+                case "Fuel":
+                Debug.Log("Safe");
+                break;
+                case "Friendly":
+                Debug.Log("Start");
+                break;
+                case "Finish":
+                Debug.Log("Finished");
+                NextLevelSequence();
+                break;
+                default:
+                Debug.Log("Explode");
+                StartCrashSequence();
+                break;
+            }
         }
     }
 
     private void NextLevelSequence()
     {
+        IsControllable = false;
+        AudioSource.Stop();
         AudioSource.PlayOneShot(success);
         GetComponent<Movement>().enabled = false;
         Invoke("NextLevel" , LoadDelay);
@@ -47,6 +53,8 @@ public class CollisionHandler : MonoBehaviour
 
     void StartCrashSequence()
     {
+        IsControllable = false;
+        AudioSource.Stop();
         AudioSource.PlayOneShot(crash);
         GetComponent<Movement>().enabled = false;
         Invoke("ReloadLevel" , LoadDelay);
