@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
@@ -10,16 +11,27 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] AudioClip CrashSFX;
     [SerializeField] ParticleSystem SuccessParticles;
     [SerializeField] ParticleSystem CrashParticles;
+    [SerializeField] ParticleSystem BabyParticles;
+
 
     
     AudioSource AudioSource;
     bool IsControllable = true;
+    bool IsCrashable = true;
 
     private void Start() 
     {
         AudioSource = GetComponent<AudioSource>();
     }
 
+    private void Update() 
+    {
+        RespondToDebugKeys();
+        if(!IsCrashable)
+            {
+                Debug.Log("Baby Mode");
+            }
+    }
 
     private void OnCollisionEnter(Collision other) 
     {
@@ -35,22 +47,37 @@ public class CollisionHandler : MonoBehaviour
                 break;
                 case "Finish":
                 Debug.Log("Finished");
-                NextLevelSequence();
+                NextLevelSequence(true);
                 break;
                 default:
-                Debug.Log("Explode");
-                StartCrashSequence();
+                if(IsCrashable)
+                {
+                    Debug.Log("Explode");
+                    StartCrashSequence();
+                }
+                else
+                {
+                    StartBabymode();
+                }
                 break;
             }
         }
     }
 
-    private void NextLevelSequence()
+    void StartBabymode()
     {
+        BabyParticles.Play();
+    }
+
+    private void NextLevelSequence(bool var)
+    {
+        if(var)
+        {
+            SuccessParticles.Play();
+            AudioSource.Stop();
+            AudioSource.PlayOneShot(SuccessSFX);
+        }
         IsControllable = false;
-        AudioSource.Stop();
-        AudioSource.PlayOneShot(SuccessSFX);
-        SuccessParticles.Play();
         GetComponent<Movement>().enabled = false;
         Invoke("NextLevel" , LoadDelay);
     }
@@ -79,5 +106,18 @@ public class CollisionHandler : MonoBehaviour
             CurrentScene = -1;
         }
             SceneManager.LoadScene(CurrentScene+1);
+    }
+
+    void RespondToDebugKeys()
+    {
+        if(Keyboard.current.lKey.wasPressedThisFrame)
+        {
+            LoadDelay = 0.3f;
+            NextLevelSequence(false);
+        }
+        else if(Keyboard.current.cKey.wasPressedThisFrame)
+        {
+            IsCrashable = !IsCrashable;
+        }
     }
 }

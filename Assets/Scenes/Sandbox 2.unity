@@ -843,11 +843,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1162828925397246461, guid: 65dd21572fcabba4096d84abdcc899ae, type: 3}
   m_PrefabInstance: {fileID: 5824386665902680740}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &701847750 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 4707268258872333557, guid: cf91000b018c5e64d87fba48f5ab81b9, type: 3}
-  m_PrefabInstance: {fileID: 944779347}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,9 +1100,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8902305362784705133, guid: cf91000b018c5e64d87fba48f5ab81b9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1784666282}
-    - targetCorrespondingSourceObject: {fileID: 8902305362784705133, guid: cf91000b018c5e64d87fba48f5ab81b9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1784666283}
   m_SourcePrefab: {fileID: 100100000, guid: cf91000b018c5e64d87fba48f5ab81b9, type: 3}
 --- !u!4 &944779348 stripped
 Transform:
@@ -1381,11 +1373,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1810318300436911340, guid: 67822f4df077ee54fb9489fe833818f2, type: 3}
   m_PrefabInstance: {fileID: 1443936249631445555}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &1710761497 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 5834630005178947011, guid: cf91000b018c5e64d87fba48f5ab81b9, type: 3}
-  m_PrefabInstance: {fileID: 944779347}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1726459657 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8345849447179561121, guid: febd3dd067ace07409528d21d0f0c870, type: 3}
@@ -1553,23 +1540,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1784666283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784666274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 869bc972fc8602e489ef93fb7bf86edf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LoadDelay: 2
-  SuccessSFX: {fileID: 8300000, guid: 0ce56421961b7e44fb10c25cf084b620, type: 3}
-  CrashSFX: {fileID: 8300000, guid: 5aa846f3c3508c14bbe18f9ef0871341, type: 3}
-  SuccessParticles: {fileID: 1710761497}
-  CrashParticles: {fileID: 701847750}
 --- !u!4 &1788258630 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8660342878519818202, guid: aff97827c327cd2469cca1d2a1009449, type: 3}

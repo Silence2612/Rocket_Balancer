@@ -43,7 +43,6 @@ public class Movement : MonoBehaviour
             rb.AddRelativeForce(Vector3.up * ThrustStrength * Time.fixedDeltaTime);
             if (!AudioSource.isPlaying)
             {
-                Debug.Log("Attempting to play audio...");
                 AudioSource.PlayOneShot(MainEngine); 
                   
             }
@@ -56,7 +55,6 @@ public class Movement : MonoBehaviour
         {
             AudioSource.Stop();
             MainThrust.Stop();
-            Debug.Log("Stopping audio...");
         }
     }
 
