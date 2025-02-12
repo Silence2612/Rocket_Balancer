@@ -17,6 +17,7 @@ public class Movement : MonoBehaviour
 
     Rigidbody rb;
     AudioSource AudioSource;
+    RigidbodyConstraints originalConstraints;
 
     private void Start() 
     {
@@ -28,7 +29,6 @@ public class Movement : MonoBehaviour
         thrust.Enable();
         Rotation.Enable();
     }
-
 
     private void FixedUpdate()
     {
