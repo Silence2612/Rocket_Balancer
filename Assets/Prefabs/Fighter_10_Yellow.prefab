@@ -132,9 +132,7 @@ GameObject:
   - component: {fileID: 1810318300436911340}
   - component: {fileID: 3364278473288932169}
   - component: {fileID: 672345019804397443}
-  - component: {fileID: 8962996561630750057}
-  - component: {fileID: 6492132095749400161}
-  - component: {fileID: 7036908670154639702}
+  - component: {fileID: 2186280969897793520}
   m_Layer: 0
   m_Name: Fighter_10_Yellow
   m_TagString: Untagged
@@ -224,8 +222,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8962996561630750057
-BoxCollider:
+--- !u!64 &2186280969897793520
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -242,51 +240,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 8.3, y: 6.5, z: 35.51}
-  m_Center: {x: 0.0000014305115, y: 4.368763, z: 2.796399}
---- !u!65 &6492132095749400161
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320779871065869910}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3, y: 2.29, z: 36.054367}
-  m_Center: {x: -5.81, y: 3.65, z: 2.796399}
---- !u!65 &7036908670154639702
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320779871065869910}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3, y: 2.29, z: 36.054367}
-  m_Center: {x: 5.06, y: 3.58, z: 2.796399}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9016469648737292092, guid: 2506c32f90ed869409734d062d07c67e, type: 3}
 --- !u!1 &1531614438035603263
 GameObject:
   m_ObjectHideFlags: 0
