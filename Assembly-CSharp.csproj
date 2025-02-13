@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\QuitApplication.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
   </ItemGroup>
   <ItemGroup>
