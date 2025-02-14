@@ -8,10 +8,10 @@ Your mission is simple: **navigate your pod** through each level, avoid obstacle
 ### 🏆 Levels  
 - **🟢 Level 1 – Green Zone**  
   - A **classic** space navigation level.  
-  - Navigate carefully through **static and moving obstacles** in a calm, green-hued environment.  
+  - Navigate carefully through **static obstacles** in a calm, green-hued environment.  
 
 - **🔵 Level 2 – Blue Descent**  
-  - Gravity shifts—your pod **falls freely**!  
+  - Your pod **falls freely**!  
   - **Dodge obstacles** while descending at high speed in a cool blue-toned setting.  
 
 - **🔴 Level 3 – Red Chaos**  
@@ -31,7 +31,7 @@ Your mission is simple: **navigate your pod** through each level, avoid obstacle
 ## 🚀 How to Play  
 1. **Control your pod** using movement keys.  
 2. **Avoid obstacles** and survive each level.  
-3. **Adapt** to shifting gravity, shaky terrain, and fast-moving objects.  
+3. **Adapt** to shaky terrain, and fast-moving objects.  
 4. **Reach the end** to complete the adventure!  
 
 ## 🔥 Future Enhancements  
