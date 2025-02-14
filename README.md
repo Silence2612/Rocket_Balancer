@@ -5,6 +5,10 @@
 ## 🌌 Gameplay  
 Your mission is simple: **navigate your pod** through each level, avoid obstacles, and survive the chaotic environments. Each level brings a fresh twist to the challenge!  
 
+## 🎥 Gameplay Showcase  
+
+📽️ **Watch the game in action:** [Showcase Video](https://drive.google.com/drive/u/3/folders/1hySTg3eVbAZzB5jGNJdScNeCABJ-zM92)  
+
 ### 🏆 Levels  
 - **🟢 Level 1 – Green Zone**  
   - A **classic** space navigation level.  
@@ -37,6 +41,6 @@ Your mission is simple: **navigate your pod** through each level, avoid obstacle
 ## 🔥 Future Enhancements  
 - **More levels** with unique mechanics  
 - **Additional pod abilities and power-ups**  
-- **Enhanced visual effects and sound design**  
+- **Enhanced visual effects and sound design**
 
 Feel free to contribute or suggest improvements! 🚀✨  
