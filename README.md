@@ -7,7 +7,7 @@ Your mission is simple: **navigate your pod** through each level, avoid obstacle
 
 ## 🎥 Gameplay Showcase  
 
-📽️ **Watch the game in action:** [Showcase Video](https://drive.google.com/drive/u/3/folders/1hySTg3eVbAZzB5jGNJdScNeCABJ-zM92)  
+📽️ **Watch the game in action:** [Showcase Video](https://drive.google.com/drive/folders/1hySTg3eVbAZzB5jGNJdScNeCABJ-zM92?usp=drive_link)  
 
 ### 🏆 Levels  
 - **🟢 Level 1 – Green Zone**  
