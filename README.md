@@ -1,4 +1,4 @@
-# 🚀 Space Pod Adventure  
+# 🚀 Rocket Balancer  
 
 **Space Pod Adventure** is a fun and challenging space-themed game where you **pilot a small pod** through hazardous environments, dodging obstacles and adapting to different physics-based challenges across multiple levels.  
 
